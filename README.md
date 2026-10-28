@@ -29,6 +29,12 @@ The skill writes a JSON export and a report page under `reports/`, which Git ign
 Open that page, load your JSON, and check the result. For the final pair report, load both
 laptops' JSON files together and save the combined HTML. Use the same time window on both laptops.
 
+## Lab 3 Development
+
+In Lab 3 we develop independent game features in parallel. Each feature is built by its own
+coding agent on a separate branch, checked out in its own Git worktree, so agents can work at the
+same time without touching each other's files. Each branch is reviewed and then merged into `main`.
+
 ## Files
 
 - `.claude/skills/lab-report/`: reporting skill and offline HTML page.
